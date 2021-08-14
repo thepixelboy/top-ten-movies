@@ -63,7 +63,7 @@
   {% else %}
   <div class="container text-center add">
     {% endif %}
-    <a href="#" class="button">Add Movie</a>
+    <a href="{{ url_for('add_movie') }}" class="button">Add Movie</a>
   </div>
 
   {% endblock %}
